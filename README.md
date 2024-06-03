@@ -12,6 +12,10 @@ This application is a simple currency converter that allows users to convert bet
 - Java 17 or later.
 - Internet connection to fetch exchange rates.
 
+## Dependencies
+- Gson: For parsing JSON responses from the API.
+  - Add Gson to your project dependencies.
+
 ## How to Use
 1. **Run the Application**:
    - Execute the `Principal` class.
@@ -48,11 +52,6 @@ Represents the structure of the JSON response.
 
 ### Conversion Result Screenshot
 ![image](https://github.com/ggEnrique/JavaMoneyConverter/assets/121460710/61daa091-1750-464a-833e-b63ddb83f730)
-
-
-## Dependencies
-- Gson: For parsing JSON responses from the API.
-  - Add Gson to your project dependencies.
 
 ## Setup
 1. Clone the repository.
