@@ -37,7 +37,7 @@ public class Principal {
 
             Exchange exchange = consultarExchange.exchangeRate(baseCode, targetCode, amount);
             System.out.printf("Conversion rate from %s to %s: %.4f%n", baseCode, targetCode, exchange.conversion_rate());
-            System.out.printf("Conversion result for amount %.2f: %.4f%n", amount, exchange.conversion_result());
+            System.out.printf("Conversion result for amount %.2f: $%.2f%n", amount, exchange.conversion_result());
         }
 
         scanner.close();
